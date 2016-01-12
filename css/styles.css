@@ -1,0 +1,645 @@
+﻿/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*/// Reset Over ///*/
+
+/* BOOTSTRAP */
+.container {
+background: #fff;
+max-width: 1262px;
+margin:14px auto;
+}
+
+.navbar-inverse {
+width:100%;
+position: fixed;
+z-index:100;
+top: 0px;
+background-color: #454545;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+color: #ccc;
+}
+.navbar{
+    margin-bottom: 0px;
+    min-height: 60px;
+    border-radius: 0px;
+}
+.navbar-nav {
+padding-top: 20px;
+margin: -1px 0px 0px -14px;
+}
+.navbar-nav > li > a {
+padding-top: 0px;
+padding-bottom: 0px;
+line-height: 24px;
+}
+.navbar-nav > li > a :active{
+color:white;
+}
+.navbar-toggle {
+margin:14px 0px 0px 14px;
+padding: 0px 10px;
+position: relative;
+float: left;
+height: 30px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #3b5998;
+}
+.navbar-collapse.in {
+border-radius: 0px 0px 3px 3px;
+}
+.navbar-nav.navbar-right{
+padding-top: 0px;
+width:286px;
+}
+.navbar-nav.navbar-right li:first-child, .navbar-nav.navbar-right li:last-child{
+padding-top: 20px;
+}
+.subnavbar ul {
+  margin-left: 100px;  
+}
+.subnavbar ul li{
+    padding-top: 25px;
+    float: left;
+    display: inline;
+    margin-right: 15px
+}
+.subnavbar ul li.member, .subnavbar ul li.payment{
+cursor: pointer;
+margin-top: 25px;
+width: 45px;
+height: 84px;
+background-image: url(../images/icons-settings-2.png);  
+}
+.subnavbar ul li.payment{
+background-image: url(../images/icons-settings-1.png);      
+}
+.subnavbar ul li.member:hover{
+cursor: pointer;
+ background-image: url(../images/icons-settings-2-sel.png);    
+}
+.subnavbar ul li.payment:hover{
+cursor: pointer;
+background-image: url(../images/icons-settings-1-sel.png);    
+}
+.user{
+background-image: url('images/user.png');
+background-size:48px 50px;
+}
+.caption{
+text-align: center;
+margin: 28px 0px;
+}
+.caption h2{
+font-size: 0.8em;
+}
+.caption h2 a{
+font-size: 16px;
+color: #454545;
+cursor:pointer;
+}
+.caption ul{
+float:left;
+width:100%;
+padding: 0;
+margin: 0;
+list-style-type: none;
+font-size:0.8em
+}
+.caption ul li{
+font-size: 11px;
+display:inline;
+}
+.caption.side-thumbs{
+ color:#868686;  
+}
+.caption.side-thumbs h2 a{
+color: black;
+}
+.caption.side-thumbs h2 a:hover{
+color: #428bca;
+text-decoration: none;
+}
+.caption.side-thumbs ul li{
+display: block; 
+line-height: 1.4em;   
+}
+.caption ul li:last-child{
+color:#868686;
+}
+
+.place{
+    font-size: 14px;
+    color: #454545;
+    padding-top: 12px;
+    text-align: center;
+    height: 60px;
+    background-color:#f7f6f6;
+}
+.place span{
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #898989;
+    font-size: 12px;
+    padding-top: 7px;
+}
+/**/
+
+body {
+
+color: #222;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.gbes2#gb2 {
+margin-top: 60px;
+background-color: white;
+background-image: url("../images/bkg-sub.png");
+background-repeat: repeat-x;
+height: 120px;
+}
+#buscador-top{
+width: 386px;
+margin: 36px 36px 0px 36px;
+float: right;
+}
+.more-items{
+    width: 10%;
+    float: right;
+    margin-top: -30px;
+}
+.more-items span{
+    font-size: 18px;
+}
+.livesearch{
+    background-image: url('../images/LiveSearch-01.png');
+    width: 30px;
+    height: 30px;
+    display: inline;
+    float: right;
+}
+
+input[type="button"] {
+cursor:pointer;
+margin-right: 14px;
+}
+input[type="submit"] {
+-webkit-border-top-right-radius: 12px;
+-webkit-border-bottom-right-radius: 12px;
+-moz-border-radius-topright: 12px;
+-moz-border-radius-bottomright: 12px;
+border-top-right-radius: 12px;
+border-bottom-right-radius: 12px;
+-webkit-user-select: none;
+border: 1px solid #4db1f7;
+background-color: #4db1f7;
+color: #fff;
+cursor: default;
+font-family: arial,sans-serif;
+font-weight: bold;
+height: 28px;
+min-width: 54px;
+text-align: center;
+padding: 4px 8px 2px;
+cursor:pointer;
+}
+
+.col-sm-6.col-md-2{
+    padding: 7px;
+}
+.slot-wrapper {
+    cursor: pointer;
+    padding: 7px;
+    margin-bottom: 14px;
+}
+.slot-wrapper:hover { 
+    
+    -moz-box-shadow: 0 0 4px #ccc; 
+    -webkit-box-shadow: 0 0 4px #ccc; 
+    box-shadow: 0 0 4px #ccc; } 
+.thumbnail {
+    background-color: transparent;
+    margin-bottom: 0px;
+    padding: 0px;
+    border:0px;
+    cursor: pointer; 
+}
+.click-on, .click-off{
+    background-image: url('../images/options.png');
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: block;
+    float: right;
+    position: relative;
+    top: -117px;
+    left:7px;
+    z-index: 1;
+    padding: 0 4px;
+    display: -moz-inline-stack;
+    vertical-align: top;
+}
+.click-off{
+    background-image: url('../images/options-selected.png');
+}
+.popover{
+    background-color: black;
+}
+.popover.bottom>.arrow {
+    margin-top: -44px;
+    top: -21px;
+    left: 66%;
+}
+.popover.bottom>.arrow:after {
+border-bottom-color: #000;
+}
+.popover.bottom {
+border-radius: 0px;
+}
+.pop-icon-1{
+    background-image: url('../images/pop-icon-1.png');
+}
+.glyphicon-eye-open{
+color: #4db1f7;
+}
+.glyphicon-trash{
+margin-top: 24px;
+color: white;
+}
+.video-list-row {
+padding: 0px;
+margin-bottom: 0px;
+}
+.video-list-row  p{
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+b{
+font-weight: bold;	
+}
+ .bold{
+    font-weight: bold;
+ }
+	.tftextinput-results{
+    float: left;
+    height:28px;
+    width: 280px;
+	margin: 0;	
+ 	padding:3px 8px 2px 8px;
+	font-size:1em; 
+	border-right:0px;
+	border-top-left-radius: 12px 12px;
+	border-bottom-left-radius: 12px 12px;
+    -webkit-border-top-left-radius: 12px;
+    -webkit-border-bottom-left-radius: 12px;
+    -moz-border-radius-topleft: 12px;
+    -moz-border-radius-bottomleft: 12px;
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #c0c0c0 #d9d9d9 #d9d9d9;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+	}
+
+	.tftextinput-results:hover{
+	border-color: #A0A0A0 #B9B9B9 #B9B9B9;
+	border-image: none;
+	border-right: 1px solid #B9B9B9;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+	}
+
+	.tftextinput-results:active, .tftextinput-results:focus  {
+    outline: none;
+    border-color:#1c62b9;
+    border-style:inset;
+    -moz-box-shadow:    inset 0 0 3px #ddd;
+   -webkit-box-shadow: inset 0 0 3px #ddd;
+   box-shadow:         inset 0 0 3px #ddd;
+	}
+
+    .tfbutton {
+    background:url('../images/search-icon.png') no-repeat center center;
+    background-color: #f0f0f0;
+	height: 28px;
+	width: 70px;
+	margin: 0;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	float: left;
+	}
+
+    .tfbutton:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    }
+
+/* Fixes submit button height problem in Firefox */
+.tfbutton::-moz-focus-inner {
+	border: 0;
+}
+
+.thumbnails-side-slot{
+    float: left;
+    margin: 0px 0px 7px 14px;
+}
+
+
+/* *********** MEDIA QUERIES *********** */
+@media only screen and (min-width:1181px) and (max-width:1280px) {
+.click-on, .click-off {
+top: -110px;
+}
+.container{
+   width: 1100px;
+}
+}
+@media only screen and (min-width:1024px) and (max-width:1180px) {
+.click-on, .click-off {
+top: -100px;
+}
+.container{
+   width: 964px;
+}
+}
+
+@media only screen and (min-width:991px) and (max-width:1023px) {
+.click-on, .click-off {
+top: -90px;
+}
+.container{
+   width: 880px;
+}
+}
+@media only screen and (min-width:961px) and (max-width:990px) {  
+.click-on, .click-off {
+top: -184px;
+}
+.container{
+   width: 880px;
+}
+}
+@media only screen and (min-width:770px) and (max-width:960px){
+.click-on, .click-off {
+top: -140px;
+}
+.container{
+    width: 700px;
+}
+.more-items{
+display: none;
+}
+}
+@media only screen and (max-width:770px){
+.container{
+    margin-top: 63px;
+}
+#buscador-top{
+    width: 100%;
+    float: left;
+    margin: 14px auto;
+
+}
+.livesearch{
+    margin-left: 15px;
+    float: left;
+    background-image: url('../images/LiveSearch-02.png');
+    }
+.click-on, .click-off {
+top: -178px;
+}
+}
+@media only screen and (max-width: 768px) {
+.more-items{
+display: none;
+}
+.container-fluid>.navbar-header{
+        margin-bottom: 15px;
+    }
+li.user-pic{
+    display: none;
+}
+.navbar-nav.navbar-right li:last-child{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 15px;
+}
+}
+/* *********** 640px *********** */
+@media only screen and (min-width:640px) and (max-width: 769px) {
+.container{
+width: 580px;
+}
+}
+/* *********** min 481px max 639 *********** */
+@media only screen and (min-width:481px) and (max-width:639px) {
+.click-on, .click-off {
+top: -138px;
+}
+#buscador-top{
+    margin-bottom: 22px;
+}
+.more-items{
+display: none;
+}
+.content {
+    width: auto;
+    margin-top: 50px;
+}
+
+.navbar-collapse.in ul li {
+    padding: 0px;
+}
+.container {
+    width: 462px;
+}
+}
+
+/* *********** 480px *********** */
+@media only screen and (max-width: 480px) {
+.more-items{
+    display: none;
+}
+.col-xs-6 {
+width: 50%;
+}
+.container{
+width: 400px;
+}
+.navbar-default {
+margin: -2px;
+}
+.navbar-collapse.in {
+border-radius: 0px 0px 3px 3px;
+border: 0px;
+border-right: 1px solid #454545;
+border-bottom: 1px solid #454545;
+}
+.navbar-collapse.in ul {
+padding:10px 7px 10px 7px;
+}
+.navbar-collapse.in ul  li{
+padding:3px 0px 3px 0px;
+}
+.navbar-collapse {
+padding-right: 0px;
+}
+
+/*results*/
+.navbar-collapse.in ul li {
+    padding: 0px;
+}
+.navbar-nav > li > a {
+    padding: 8px 0px 5px 8px;
+}
+.tftextinput-results {
+width: 230px;
+}
+#buscador-top{
+    width: 100%;
+    float: left;
+    margin-bottom: 22px;
+}
+.livesearch{
+    margin-left: 15px;
+    float: left;
+    background-image: url('../images/LiveSearch-02.png');
+    }
+.tftextinput-results {
+width: 245px;
+}
+}
+/* *********** 320px *********** */
+@media only screen and (min-width:320px) and (max-width: 479px) {
+
+.more-items{
+    display: none;
+}
+.col-xs-6 {
+    width: 100%;
+}
+#gb2.gbes2 {
+background-color: #fff !important;
+height: 114px !important;
+}
+.navbar-default {
+margin: -2px;
+}
+.navbar-collapse.in {
+border-radius: 0px 0px 3px 3px;
+border: 0px;
+border-right: 1px solid #454545;
+border-bottom: 1px solid #454545;
+}
+.navbar-collapse.in ul {
+padding:10px 7px 10px 7px;
+}
+.navbar-collapse.in ul  li{
+padding:3px 0px 3px 0px;
+}
+.navbar-collapse {
+padding-right: 0px;
+}
+.content {
+width: auto;
+}
+.navbar-collapse.in ul li {
+padding: 0px;
+}
+.navbar-nav > li > a {
+padding: 8px 0px 5px 8px;
+} 
+.tfbutton {
+ float: none;
+}
+.container {
+    margin-top: 126px;
+    width: 300px;
+}
+.results-searchform{
+	width:315px;
+}
+.tftextinput-results {
+width: 240px;
+}
+.livesearch{
+    display: none;
+}
+}
+
+
+
+
